@@ -25,6 +25,7 @@ class MainWindow(QtWidgets.QWidget, Ui_Form):
         self.parent = parent
         self.add_desire_widget = None
         self.setWindowFlag(Qt.WindowCloseButtonHint, True)
+        self.setWindowTitle("Вишлист") 
         self.show()
         self.__create_table()
         self.__make_connects()

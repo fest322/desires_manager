@@ -11,6 +11,7 @@ class DesireWindow(QtWidgets.QWidget, Ui_Form):
         super().__init__()
         self.setupUi(self)
         self.parent = parent
+        self.setWindowTitle("Добавление желания") 
         self.__make_connects()
         self.db = DataBase()
 
